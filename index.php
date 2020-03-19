@@ -4,6 +4,11 @@
 
     $api = new ApiMiembros();
 
-    $api->getAll();
+    $dataMember = $api->getAll();
 
+    
+    // $dataMember = $api->getMemeberById(7);
+    // echo "<pre>";
+    // var_dump($dataMember['items'][0]);
+    // echo "</pre>";
 ?>
